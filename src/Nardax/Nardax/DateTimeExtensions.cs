@@ -4,12 +4,16 @@ namespace Nardax
 {
     public static class DateTimeExtensions
     {
+
+        //Andvänder datum
         public static DateTime Floor(this DateTime dateTime, TimeSpan timeSpan)
         {
             var ticks = dateTime.Ticks / timeSpan.Ticks;
             return new DateTime(ticks * timeSpan.Ticks);
         }
 
+
+        //Avrundar datum
         public static DateTime Round(this DateTime dateTime, TimeSpan timeSpan)
         {
             var ticks = (dateTime.Ticks + (timeSpan.Ticks / 2) + 1) / timeSpan.Ticks;

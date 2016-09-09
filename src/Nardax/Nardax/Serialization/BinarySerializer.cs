@@ -3,6 +3,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Nardax.Serialization
 {
+
+    //Serializera valfritt värde
     public class BinarySerializer<T> : ISerializer<T, byte[]>
     {
         public byte[] Serialize(T value)
