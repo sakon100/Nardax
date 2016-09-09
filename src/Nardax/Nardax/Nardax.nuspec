@@ -3,11 +3,4 @@
   <metadata>
     <id>Nardax</id>
     <version>1.2</version>
-    <title>Nardax</title>
-    <authors>Ryan Pedersen</authors>
-    <owners>Ryan Pedersen</owners>
-    <projectUrl>https://github.com/rpedersen/Nardax</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A simple collection of reusable code. String, DateTime and Serialization helpers and extentions.</description>
-  </metadata>
-</package>
+    <title>Nardax</title>gfd

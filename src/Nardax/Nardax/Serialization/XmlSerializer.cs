@@ -10,10 +10,7 @@ namespace Nardax.Serialization
         public string Serialize(T value)
         {
             using (var stream = new MemoryStream())
-            {
-                var xs = new XmlSerializer(typeof(T));
-                var xmlTextWriter = new XmlTextWriter(stream, Encoding.UTF8);
-                xs.Serialize(xmlTextWriter, value);
+            {ghbfdghflue);
                 var xml = new UTF8Encoding().GetString(stream.ToArray());
                 return xml;
             }
